@@ -10063,6 +10063,11 @@ p.lead {
     display: block;
   }
 }
+.img-profile-mobile {
+  max-width: 3rem;
+  max-height: 3rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.2);
+}
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
