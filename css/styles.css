@@ -10644,6 +10644,8 @@ h1 {
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  border: 2px solid #343a40;
+  box-sizing: border-box;
 }
 
 .middle {
@@ -10671,7 +10673,6 @@ h1 {
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
-  padding-right: 2rem;
 }
 
 #more-projects .middle {
@@ -10682,7 +10683,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding-right: 2rem;
 }
 
 #more-projects .container:hover {
