@@ -10685,8 +10685,12 @@ h1 {
   text-align: center;
 }
 
-#more-projects .container:hover {
-  transform: scale(1.05);
+#more-projects .text {
+  transition: transform 0.3s ease;
+}
+
+#more-projects .container:hover .text {
+  transform: scale(1.15);
 }
 
 .text {
@@ -10695,9 +10699,11 @@ h1 {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   color: white;
   font-size: 16px;
-  padding: 1rem;
+  letter-spacing: 0.02em;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
 }
